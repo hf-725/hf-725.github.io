@@ -104,14 +104,16 @@ img{
 .math h1 {
     text-align: center;
     font-size: 4.5rem;
-    font-family: "Sansita Swashed";
+    font-family: "M PLUS Rounded 1c";
 }
 .math h2 {
+    font-family: "M PLUS Rounded 1c";
     text-align: center;
     border-bottom: double 5px Cyan;
     font-size: 2.5rem;
 }
 .math h3 {
+    font-family: "M PLUS Rounded 1c";
     font-size: 1.5rem;
     padding-top: 1rem;
 }
