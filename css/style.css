@@ -92,3 +92,24 @@ img{
 #home .page-title {
     text-transform: none;
 }
+
+/* math */
+.math {
+    max-width: 800px;
+    margin: auto;
+    list-style: none;
+}
+.math h1 {
+    text-align: center;
+    font-size: 4.5rem;
+    font-family: "Sansita Swashed";
+}
+.math h2 {
+    text-align: center;
+    border-bottom: double 5px Cyan;
+    font-size: 2rem;
+}
+.center {
+    margin-top: 10px;
+    text-align: center;
+}
