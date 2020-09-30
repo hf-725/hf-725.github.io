@@ -95,9 +95,10 @@ img{
 
 /* math */
 .math {
+    font-family: "Yu Gothic", "YuGothic", "游ゴシック体", sans-serif;
     max-width: 800px;
     margin: auto;
-    list-style: none;
+    list-style: circle;
 }
 .math h1 {
     text-align: center;
@@ -107,8 +108,26 @@ img{
 .math h2 {
     text-align: center;
     border-bottom: double 5px Cyan;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
+.math h3 {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+.math p {
+    font-weight: bold;
+    margin-left: 0rem;
+}
+.math ul {
+    margin: 0.5rem 0rem 0.5rem 2rem;
+    font-weight: bold;
+}
+
+.pdflink {
+    font-size: 1.25rem;
+    margin: 0.75rem 0rem 0rem 0rem;
+}
+
 .center {
     margin-top: 10px;
     text-align: center;
