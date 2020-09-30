@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/* 共通部分
+------------------ */
+
+html {
+    font-size: 100%;
+}
+body {
+        font-family: "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+        color: #432;
+}
+a {
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+/* HEADER
+------------------- */
+.logo {
+    width: 100px;
+    margin-top: 14px;
+}
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+.main-nav li {
+    margin-left: 36px;
+}
+.main-nav a {
+    color: rgb(235, 18, 83);
+}
+.main-nav a:hover {
+    color: #0bd;
+}
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/* HOME
+------------------- */
+.home-content {
+    text-align: center;
+    margin-top: 5%;
+}
+.home-content p {
+    font-size: 1.125rem;
+    margin: 10px 0 42px;
+}
+
+/* 見出し */
+.page-title {
+    font-size: 5rem;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: normal;
+}
+.button {
+    font-size: 1.375rem;
+    background: #0bd;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+}
+.button:hover {
+    background: #0090aa;
+}
+
+/* 大きな背景画像 */
+.big-gb {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+#home {
+    background-image: linear-gradient(rgba(255, 166, 0, 0.281), Pink);
+    min-height: 100vh;
+}
+#home .page-title {
+    text-transform: none;
+}
