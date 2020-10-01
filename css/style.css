@@ -189,4 +189,26 @@ img{
     .home-content {
         margin-top: 20%;
     }
+    
+    /* math */
+    .math h1 {
+        font-size: 2rem;
+    }
+    .math h2 {
+        font-size: 1.5rem;
+    }
+    .math h3 {
+        font-size: 1.25rem;
+    }
+
+    /* about */
+    .about h1 {
+        font-size: 2rem;
+    }
+    .about h2 {
+        font-size: 1.5rem;
+    }
+    .about h3 {
+        font-size: 1.25rem;
+    }
 }
