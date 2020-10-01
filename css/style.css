@@ -96,6 +96,10 @@ img{
     text-transform: none;
 }
 
+article {
+    padding: 1rem;
+}
+
 /* フッター */
 footer {
     padding: 26px 0;
@@ -112,6 +116,7 @@ footer p {
     max-width: 800px;
     margin: auto;
     list-style: circle;
+    padding-bottom: 1rem;
 }
 .math h1 {
     text-align: center;
@@ -214,9 +219,6 @@ footer p {
     }
     .math h3 {
         font-size: 1.25rem;
-    }
-    .math p {
-        padding-bottom: 0.5rem;
     }
 
     /* about */
