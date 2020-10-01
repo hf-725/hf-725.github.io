@@ -82,7 +82,7 @@ img{
 }
 
 /* 大きな背景画像 */
-.big-gb {
+.big-bg {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -94,6 +94,16 @@ img{
 }
 #home .page-title {
     text-transform: none;
+}
+
+/* フッター */
+footer {
+    padding: 26px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.875rem;
 }
 
 /* math */
@@ -167,6 +177,7 @@ img{
 .center {
     margin-top: 10px;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 /* モバイル版
