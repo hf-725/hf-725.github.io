@@ -119,12 +119,43 @@ img{
 }
 .math p {
     font-weight: bold;
-    margin-left: 0rem;
 }
 .math ul {
     margin: 0.5rem 0rem 0.5rem 2rem;
     font-weight: bold;
 }
+
+/* about */
+
+.about {
+    font-family: "Yu Gothic", "YuGothic", "游ゴシック体", sans-serif;
+    max-width: 800px;
+    margin: auto;
+    list-style: circle;
+}
+.about h1 {
+    text-align: center;
+    font-size: 4.5rem;
+    font-family: "M PLUS Rounded 1c";
+}
+.about h2 {
+    font-family: "M PLUS Rounded 1c";
+    font-size: 2.5rem;
+}
+.about h3 {
+    font-family: "M PLUS Rounded 1c";
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+.about p {
+    font-weight: bold;
+}
+.about ul {
+    margin: 0.5rem 0rem 0.5rem 2rem;
+    font-weight: bold;
+}
+
+/* others */
 
 .pdflink {
     font-size: 1.25rem;
