@@ -189,6 +189,11 @@ img{
     .home-content {
         margin-top: 20%;
     }
+
+    .page-header {
+        flex-direction: column;
+        align-items: center;
+    }
     
     /* math */
     .math h1 {
