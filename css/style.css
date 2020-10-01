@@ -149,6 +149,7 @@ footer p {
     max-width: 800px;
     margin: auto;
     list-style: circle;
+    padding-bottom: 0.5rem;
 }
 .about h1 {
     text-align: center;
