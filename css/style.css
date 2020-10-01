@@ -177,7 +177,6 @@ footer p {
 .center {
     margin-top: 10px;
     text-align: center;
-    margin-bottom: 10px;
 }
 
 /* モバイル版
@@ -215,6 +214,9 @@ footer p {
     }
     .math h3 {
         font-size: 1.25rem;
+    }
+    .math p {
+        padding-bottom: 0.5rem;
     }
 
     /* about */
