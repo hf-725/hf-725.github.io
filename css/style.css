@@ -60,6 +60,8 @@ img{
 .home-content p {
     font-size: 1.125rem;
     margin: 10px 0 42px;
+    font-family: "Yu Gothic", "YuGothic", "游ゴシック体", sans-serif;
+    font-weight: bold;
 }
 
 /* 見出し */
