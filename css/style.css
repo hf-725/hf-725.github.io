@@ -18,6 +18,10 @@ img{
     max-width: 100%;
 }
 
+p{
+    margin-bottom: 20px;
+}
+
 /* HEADER
 ------------------- */
 .logo {
