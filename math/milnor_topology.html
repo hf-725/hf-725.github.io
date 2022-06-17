@@ -3,26 +3,54 @@
     <head>
         <!-- Google Tag Manager -->
         <script>
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WSNM59S');
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    "gtm.start": new Date().getTime(),
+                    event: "gtm.js",
+                });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != "dataLayer" ? "&l=" + l : "";
+                j.async = true;
+                j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, "script", "dataLayer", "GTM-WSNM59S");
         </script>
         <!-- End Google Tag Manager -->
 
-        <meta charset="utf-8">
-        <title>みつばのページ(Topology from the Differentiable Viewpoint)</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/png" href="../images/favicon.png">
+        <meta charset="utf-8" />
+        <title>
+            みつばのページ(Topology from the Differentiable Viewpoint)
+        </title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/png" href="../images/favicon.png" />
 
         <!-- CSS -->
-        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap" rel="stylesheet">
-        <link href="../css/style.css" rel="stylesheet">
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/ress/dist/ress.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Sansita+Swashed:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <link href="../css/style.css" rel="stylesheet" />
 
         <!-- TeX -->
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS_CHTML"></script>
+        <script
+            type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS_CHTML"
+        ></script>
         <script type="text/x-mathjax-config">
             MathJax.Hub.Config({
                 TeX: { equationNumbers: { autoNumber: "AMS" }},
@@ -40,7 +68,12 @@
     <body>
         <!-- Google Tag Manager (noscript) -->
         <noscript>
-            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSNM59S"height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            <iframe
+                src="https://www.googletagmanager.com/ns.html?id=GTM-WSNM59S"
+                height="0"
+                width="0"
+                style="display: none; visibility: hidden"
+            ></iframe>
         </noscript>
         <!-- End Google Tag Manager (noscript) -->
 
@@ -48,7 +81,11 @@
             <header class="page-header wrapper">
                 <h1>
                     <a href="../index.html">
-                        <img class="logo" src="../images/logo.png" alt="トップページ">
+                        <img
+                            class="logo"
+                            src="../images/logo.png"
+                            alt="トップページ"
+                        />
                     </a>
                 </h1>
                 <nav>
@@ -62,9 +99,7 @@
             </header>
 
             <div class="math wrapper">
-                <h1 class="home-content">
-                    Mathematics
-                </h1>
+                <h1 class="home-content">Mathematics</h1>
                 <h2>Topology from the Differentiable Viewpoint</h2>
                 <h3>著者</h3>
                 <p>J. Milnor</p>
@@ -74,15 +109,18 @@
                 </p>
                 <h3>感想</h3>
                 <p>
-                    大学一年生の秋に友人とセミナーをしながら読んだ思い出の本です。まさしく『多様体の基礎』を読んだ直後に読みました。今でもこの本をたまに開いてみると新たな発見があったりします。例えば、この本の最後の章は実質的に$\pi_n(S^n)\cong \mathbb{Z} $の微分トポロジー的な証明を与えています。<br>
-                    しかし、当時の自分にはこの本を読みこなすのはとても大変でした。『多様体の基礎』はほとんどの証明をかなり丁寧に書いてくれているのですが、そのノリでこの本の記述を見ると「だいたいこんな風にやればできるからあとは任せた！」という印象を受けると思います。つまり、読みながらゴリゴリ行間を埋めていく必要があります。一方で、それは読み切れた暁には相当な腕力が身についていることを意味するのではないでしょうか。私は同級生や先輩の力を借りながらこの本を読み切りました。これからこの本を読もうと思う方にも、ぜひ仲間や先輩と一緒に読み進めることをおすすめします。<br>
+                    大学一年生の秋に友人とセミナーをしながら読んだ思い出の本です。まさしく『多様体の基礎』を読んだ直後に読みました。今でもこの本をたまに開いてみると新たな発見があったりします。例えば、この本の最後の章は実質的に$\pi_n(S^n)\cong
+                    \mathbb{Z} $の微分トポロジー的な証明を与えています。<br />
+                    しかし、当時の自分にはこの本を読みこなすのはとても大変でした。『多様体の基礎』はほとんどの証明をかなり丁寧に書いてくれているのですが、そのノリでこの本の記述を見ると「だいたいこんな風にやればできるからあとは任せた！」という印象を受けると思います。つまり、読みながらゴリゴリ行間を埋めていく必要があります。一方で、それは読み切れた暁には相当な腕力が身についていることを意味するのではないでしょうか。私は同級生や先輩の力を借りながらこの本を読み切りました。これからこの本を読もうと思う方にも、ぜひ仲間や先輩と一緒に読み進めることをおすすめします。<br />
                     なお、日本語訳がありますが、私は原著が好みです。
                 </p>
                 <h3>変更履歴</h3>
                 <ul>
-                    <li>2022/2/1：記事を投稿
+                    <li>2022/2/1：記事を投稿</li>
                 </ul>
-            </div><!-- /.math -->
-        </div><!-- /#home -->
+            </div>
+            <!-- /.math -->
+        </div>
+        <!-- /#home -->
     </body>
 </html>

@@ -7,18 +7,19 @@ html {
     font-size: 100%;
 }
 body {
-        font-family: "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", "YuGothic",
+        "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
     line-height: 1.7;
-        color: #432;
+    color: #432;
 }
 a {
     text-decoration: none;
 }
-img{
+img {
     max-width: 100%;
 }
 
-p{
+p {
     margin-bottom: 20px;
 }
 
@@ -28,7 +29,7 @@ p{
     width: 100px;
     margin-top: 14px;
 }
-.main-nav{
+.main-nav {
     display: flex;
     font-size: 1.25rem;
     font-family: "Lato";
@@ -214,7 +215,7 @@ footer p {
         flex-direction: column;
         align-items: center;
     }
-    
+
     /* math */
     .math h1 {
         font-size: 2.5rem;
